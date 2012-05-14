@@ -1,7 +1,7 @@
 
 
 development: &db
-  adapter: mysql2
+  adapter: mysql
   encoding: utf8
   database: db_45531843n1
   username: user45531843n1
