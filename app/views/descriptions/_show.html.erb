@@ -1,0 +1,9 @@
+
+<div id="divDescriptionNr<%=@description.id%>" class="descriptionItem">
+      <%= image_tag @description.country.img_url, :class=> 'miniItem' %>
+      <p class="miniItem"><%= @description.country.name%></p>
+      <p class="miniItem" style="width:70px;"><%= link_to 'Bearbeiten', edit_description_path(@description), :remote => true %></p>
+      <p class="descr_text"><%= @description.text %></p>
+      <div class="clear"></div>
+</div>
+

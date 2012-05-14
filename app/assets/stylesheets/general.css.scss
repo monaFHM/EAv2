@@ -1,0 +1,98 @@
+// Place all the styles related to the general controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$grau: #c3c3c3;
+$rot: #9e0000;
+
+#ArtistMenu{
+  margin:auto;
+  color: $grau;
+  margin-top:20px;
+}
+
+.genreItem{
+    background: transparent url('/assets/artistmenuverlauf.png') bottom;
+    height:60px;
+    margin-bottom:10px;
+}
+
+.menuHeader{
+  float:left;
+  font-family: tschich;
+  font-size:18pt;
+  margin-top:35px;
+  margin-left:5px;
+}
+.artistmenulist
+{
+  float:right;
+  margin-bottom:10px;
+  width: 900px;
+
+}
+
+.artistmenuItem{
+    float:right;
+
+    img{
+        height:55px;
+        width:55px;
+        float:left;
+    }
+    p{
+      float:left;
+      width:100px;
+      font-size:12pt;
+      margin-left:10px;
+      margin-top:15px;
+    }
+    margin: 0px;
+    margin-right:10px;
+    a{
+
+      color: $grau;
+    }
+    a:hover {
+      color: $rot;
+    }
+    a:visited {
+      color: $grau;
+    }
+}
+
+
+/* INDEX */
+.indexItem
+{
+    float:left;
+    width:300px;
+    margin:10px;
+
+  img{
+    width:280px;
+    height: 170px;
+  }
+  p{
+
+
+  }
+
+}
+
+/* about */
+
+.aboutText{
+  width:600px;
+  float:left;
+  margin-left:40px;
+}
+.aboutPics{
+  float:left;
+  width: 300px;
+  img{
+    height: 150px;
+  }
+
+}
+

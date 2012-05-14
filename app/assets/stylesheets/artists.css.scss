@@ -1,0 +1,46 @@
+// Place all the styles related to the artists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pictures
+{
+  float:left;
+  width:320px;
+
+
+}
+#info{
+  float:left;
+  margin-left:20px;
+  width: 620px;
+
+}
+
+.schwach{
+  font-family:   'tschich';
+  font-size: 20pt;
+  margin: 10px;
+  margin-left:0px;
+
+}
+
+
+.artistItem{
+    float:left;
+    margin-right:20px;
+
+    img{
+      height:100px;
+      float:left;
+      margin-top:20px;
+
+    }
+    p{
+      float:left;
+       width: 100px;
+      margin-top:20px;
+      margin-left:10px;
+    }
+
+}
+

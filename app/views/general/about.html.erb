@@ -1,0 +1,25 @@
+<h1><%= I18n.t("about") %></h1>
+
+<div class="aboutPics">
+
+    <% pics=Picture.limit(3) %>
+    <% pics.each do |p| %>
+      <% @imgUrl= p.avatar.url %>
+      <% @imgText = p.name %>
+      <%= render 'layouts/piroimg' %>
+    <% end %>
+</div>
+
+<div class="aboutText">
+  <h2><%= nl2br(I18n.t("about_header_one")).html_safe %></h2>
+  <p><%= I18n.t("about_text_one") %></p>
+
+  <h2><%= I18n.t("about_header_two") %></h2>
+  <p><%= I18n.t("about_text_two") %></p>
+
+  <h2><%= I18n.t("about_header_three") %></h2>
+  <p><%= I18n.t("about_text_three") %></p>
+</div>
+
+<div class="clear"></div>
+

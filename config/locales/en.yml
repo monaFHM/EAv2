@@ -1,0 +1,35 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  home: "HOME"
+  about: "ABOUT"
+  artists: "ARTISTS"
+  contact: "CONTACT"
+
+
+  name: "Name"
+  email: "Email"
+  betreff: "Subject"
+  nachricht: "Message"
+  absenden: "Send"
+  missing_contact_info: "Please fill in all information"
+  contact_success: "Contactmail send successfully. You will here from us as soon as possible. Thank you."
+
+  mehr: "...read more"
+
+  index_who: "Who we are"
+  index_artists: "Our Artists"
+  index_philosophy: "Philosopy"
+
+  index_text_who: "Ethno-Artists-Agency ist eine Agentur, die Künstlerinnen aus unterschiedlichen Kulturkreisen europa- & weltweit vertitt. Neben der Vermittlung von Künstlerinnen, ist auch die Veranstaltungstätigkeit ein Bereich, worauf sich Ethno-Artists-Agency spezialisiert hat. Sprechen Sie uns bei der Suche nach KünstlerInnen oder bei Ihrer Veranstaltungsplanung an!"
+  index_text_a: "Unsere KünstlerInnen kommen aus unterschiedlichen Kulturkreisen und sind Spezialisten auf ihrem Gebiet. Ob Musik, Kabarett, Theater! Bei uns sind alle Sparten vertreten!"
+  index_text_p: "Unsere Agentur beabsichtigt Kunst & Kultur zu für Jedermann zugänglich zu machen und an Jedermann zu vermitteln. Bei Veranstaltungen unterstützen wir lokale, sowie regionale Einrichtungen, die sich für örtliche Gemeinschaften einsetzen."
+
+  about_header_one: "Das Unbekannte machen!\nNeueDimensionen der Künste entdecken!\nKunst als Hauptbestandteil von Kultur verstehen!"
+  about_text_one: "Ethno-Artists vermittelt europaweit in diesem Sinne Künstler unterschiedlicher Sparten- Musik, Theater/Kabarett oder auch Alternative Arts - und ist ebenfalls als Veranstalter tätig."
+  about_header_two: "Ethno als Ausdruck marginalisierter Kunst!"
+  about_text_two: "Ethno dient keinesfalls zur Unterscheidung von KünstlerInnen aus unterschiedlichen Kulturkreisen, sondern als Ausdruck der Künste, die in unserer sehr stark vom Populismus beeinflussten Zeit marginalisiert sind. Unser Ziel ist es, diese marginalisierten Künste, Publik zu machen und die Kultur somit zu bereichern. Demzufolge beleben unsere Künstler diese marginalisierten Künste - Ethno-Artists."
+  about_header_three: "Veranstaltung mit Herz & Verstand - Inklusion statt Selektion!"
+  about_text_three: "Als Veranstalter unterstützen wir materiell und immateriell, lokale sowie regionale Einrichtungen aus den jeweiligen Veranstaltungsorten, die in Bereichen wie Soziales, Kunst&Kultur, Gesundheit&Pflege tätig und auf Unterstützungen angewiesen sind. Mit jeder Veranstaltung - Konzert, Ausstellung etc. - unterstzützen wir jeweils eine Einrichtung auf lokaler oder regionaler Ebene. Damit setzen wir ein Zeichen der Solidarität."
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ethno Artists Agency</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag    "application" %>
+  <%= javascript_include_tag     "s3slider.js" %>
+  <%= csrf_meta_tags %>
+
+<link href="/javascript/demo4/style.css" class="piro_style" media="screen" title="white" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/javascript/pirobox.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+
+        $().piroBox({
+                        my_speed: 400, //animation speed
+                        bg_alpha: 0.1, //background opacity
+                        slideShow : true, // true == slideshow on, false == slideshow off
+                        slideSpeed : 4, //slideshow duration in seconds(3 to 6 Recommended)
+                        close_all : '.piro_close,.piro_overlay'// add class .piro_overlay(with comma)if you want overlay click close piroBox
+
+        });
+
+        $('#s3slider').s3Slider({
+            timeOut: 4000
+       });
+  });
+
+</script>
+
+</head>
+<body>
+
+    <div id="headerwrap">
+      <div id="header">
+        <div id="logo"><%= image_tag("logo.png") %></div>
+        <div id="menu">
+          <ul>
+            <li><%= link_to I18n.t("home"), general_index_path %></li>
+            <li><%= link_to I18n.t("about"), general_about_path %></li>
+            <li><%= link_to I18n.t("artists"), general_showroom_path %></li>
+            <li><%= link_to I18n.t("contact"), general_contact_path %></li>
+            <%= session[:login] %>
+            <% if session[:login]  %>
+                <li><%= link_to "Logout | ", login_logout_path %><%= link_to "Adminbereich", admin_index_path %></li>
+            <% end %>
+          </ul>
+           <div id="locales">
+
+	            <%= link_to image_tag("de.png"),  :locale => 'de' %>
+	            <%= link_to image_tag("gb.png"),  :locale => 'en' %>
+	            <%= link_to image_tag("fr.png"),  :locale => 'fr' %>
+          </div>
+        </div>
+        <div class="clear"></div>
+
+
+       <% if params[:controller] == "general"%>
+          <% if params[:action] == "showroom"  %>
+            <%= render 'general/artistmenu' %>
+          <% else %>
+            <div id="s3slider">
+               <ul id="s3sliderContent">
+
+                  <li class="s3sliderImage">
+                    <%= image_tag('index2.jpg') %>
+                      <span>Cafe Aman Istanbul</span>
+                  </li>
+                  <li class="s3sliderImage">
+                    <%= image_tag('index8.jpg') %>
+                      <span>Telvin</span>
+                  </li>
+                 <li class="s3sliderImage">
+                    <%= image_tag('index3.jpg') %>
+                      <span>Cemil Qoçgiri</span>
+                  </li>
+                  <li class="s3sliderImage">
+                    <%= image_tag('index4.jpg') %>
+                      <span>Defne Şahin</span>
+                  </li>
+                   <li class="s3sliderImage">
+                    <%= image_tag('index1.jpg') %>
+                      <span>Ayşenur Kolivar</span>
+                  </li>
+                 <li class="s3sliderImage">
+                    <%= image_tag('index5.jpg') %>
+                      <span>Ismail Altunsaray</span>
+                  </li>
+                  <li class="s3sliderImage">
+                    <%= image_tag('index6.jpg') %>
+                     <span>Karmate</span>
+                  </li>
+                  <li class="s3sliderImage">
+                    <%= image_tag('index7.jpg') %>
+                      <span>Sarp Maden</span>
+                  </li>
+
+                  <div class="clear s3sliderImage"></div>
+               </ul>
+            </div>
+          <% end %>
+      <% end %>
+
+      </div>
+    </div>
+
+
+  <div id="content">
+      <p id="notice"><%= notice %></p>
+    <%= yield %>
+  </div>
+
+
+  <div id="footer">
+      <%= image_tag('footerVerlauf.png') %>
+      <p>(C) Ethno Artist Agency 2012 | <%= link_to "Impressum", general_impressum_path %></p>
+  </div>
+
+
+<div class="hidden"
+    <% @imgUrl= '/assets/logo.png' %>
+    <%= render 'layouts/piroimg' %>
+</div>
+</body>
+</html>
+

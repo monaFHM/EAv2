@@ -1,0 +1,26 @@
+<h1><%= I18n.t("contact")%></h1>
+<%= form_tag('/admin/pictures') do %>
+<table>
+    <tr>
+        <td class="label"><%= I18n.t("name") %></td>
+        <td><%= text_field_tag "name", '', :size => 100 %></td>
+    </tr>
+    <tr>
+        <td class="label"><%= I18n.t("email") %></td>
+        <td><%= email_field_tag "email",'', :size => 100 %></td>
+    </tr>
+    <tr>
+        <td class="label"><%= I18n.t("betreff") %></td>
+        <td><%= text_field_tag "subject", '', :size => 100 %></td>
+    </tr>
+    <tr>
+        <td class="label" style="vertical-align:top"><%= I18n.t("nachricht") %></td>
+        <td><%= text_area_tag 'message', params[:message], :rows => 16, :cols => 100  %></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><%= submit_tag(I18n.t("absenden")) %></td>
+    </tr>
+</table>
+<% end %>
+

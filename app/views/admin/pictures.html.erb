@@ -1,0 +1,18 @@
+<h1>Bilder bearbeiten</h1>
+
+<div id="divPictures">
+
+   <%= link_to "Neues Bild hinzufügen", new_picture_path %>
+
+   <div id="divNewPicture">
+      <% @picture = Picture.new %>
+      <%= render 'pictures/form' %>
+   </div>
+
+   <% @artist.pictures.each do |p| %>
+      <% @picture = p %>
+      <%= render 'pictures/show' %>
+   <% end %>
+
+</div>
+

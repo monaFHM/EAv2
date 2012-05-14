@@ -1,0 +1,33 @@
+<div class="kasten">
+    <h1>1. Artisten bearbeiten</h1>
+    <p><%= link_to 'anzeigen', @artist %> | <%= link_to 'Übersicht', artists_path %> </p>
+
+
+    <%= render 'form' %>
+
+
+</div>
+
+<div id="divErrors"></div>
+
+
+<div class="kasten" style="margin-top:20px;">
+  <div id="divDescriptions">
+    <h2>2. Beschreibungen verwalten</h2>
+
+   <% if @artist.descriptions.count < 3 %>
+    <div onclick="javascript: $ ('#divNewDescription').show();" class="button">Neue Beschreibung anlegen</div>
+
+    <div id="divNewDescription" class="hidden">
+        <% @description = Description.new %>
+        <%= render 'descriptions/form' %>
+    </div>
+  <% end %>
+
+     <% @artist.descriptions.each do |d| %>
+           <% @description = d %>
+           <%= render 'descriptions/show' %>
+     <% end %>
+  </div>
+</div>
+

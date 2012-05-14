@@ -1,0 +1,21 @@
+<h1>Artisten bearbeiten</h1>
+
+<%= link_to 'New Artist', new_artist_path %>
+<div class="clear"></div>
+
+<% @artists.each do |artist| %>
+
+<div class="artistItem">
+      <% if artist.pictures.any? %>
+        <%= image_tag artist.pictures[0].avatar.url %>
+      <% end %>
+      <p><span style="font-size:13pt;"><%= artist.name %></span><br /><br />
+        <%= link_to 'Bearbeiten', edit_artist_path(artist) %>
+        <%= link_to 'Löschen', artist, confirm: 'Bist Du sicher?', method: :delete %>
+      </p>
+</div>
+
+<% end %>
+
+<div class="clear"></div>
+

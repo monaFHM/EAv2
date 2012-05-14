@@ -1,0 +1,26 @@
+
+<% unless @artist.nil? %>
+<h3 class="schwach"><%= @artist.genre.name %></h3>
+
+
+<div class="kasten">
+  <div class="pictures">
+  <% @artist.pictures.each do |p| %>
+      <% @imgUrl= p.avatar.url %>
+      <% @imgText = p.name%>
+      <%= render 'layouts/piroimg' %>
+  <% end %>
+  </div>
+
+  <div id="info">
+    <h1><%= @artist.name %></h1>
+  <% if @artist.descriptions.any? %>
+    <p><%= @artist.getDescriptionCountry %>&nbsp;&nbsp;<%= @artist.founded_in %></p>
+    <p><%= nl2br(@artist.getDescriptionText()).html_safe %></p>
+  <% end %>
+  </div>
+
+  <div class="clear"></div>
+</div>
+<% end %>
+

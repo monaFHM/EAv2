@@ -1,0 +1,32 @@
+fr:
+  home: "HOME"
+  about: "QUI NOUS SOMMES"
+  artists: "ARTISTES"
+  contact: "CONTACT"
+
+  name: "nom"
+  email: "email"
+  betreff: "sujet"
+  nachricht: "message"
+  absenden: "envoyer"
+
+  index_who: "Qui nous sommes"
+  index_artists: "Quien nous representons"
+  index_philosophy: "Philosophie"
+
+  mehr: "...lirez plus"
+
+  index_text_who: "Ethno-Artists-Agency ist eine Agentur, die Künstlerinnen aus unterschiedlichen Kulturkreisen europa- & weltweit vertitt. Neben der Vermittlung von Künstlerinnen, ist auch die Veranstaltungstätigkeit ein Bereich, worauf sich Ethno-Artists-Agency spezialisiert hat. Sprechen Sie uns bei der Suche nach KünstlerInnen oder bei Ihrer Veranstaltungsplanung an!"
+  index_text_a: "Unsere KünstlerInnen kommen aus unterschiedlichen Kulturkreisen und sind Spezialisten auf ihrem Gebiet. Ob Musik, Kabarett, Theater! Bei uns sind alle Sparten vertreten!"
+  index_text_p: "Unsere Agentur beabsichtigt Kunst & Kultur zu für Jedermann zugänglich zu machen und an Jedermann zu vermitteln. Bei Veranstaltungen unterstützen wir lokale, sowie regionale Einrichtungen, die sich für örtliche Gemeinschaften einsetzen."
+
+  missing_contact_info: "Entre tout les information"
+  contact_success: "Merci beaucoup. Nous vous contactons rapidement!"
+
+  about_header_one: "Rendre l´inconnu connu !\n Découvrir de nouvelles dimensions des arts !\n L´art au centre de la culture ! "
+  about_text_one: "Ethno Artists fournit dans toute l´Europe des artistes de toutes branches – musique, théâtre/cabaret, arts alternatifs – et organise également divers évènements."
+  about_header_two: "Ethno comme expression de l´art marginalisé"
+  about_text_two: "Ethno n´est pas un terme qui différencie les artistes provenant de cultures différentes, bien au contraire. Ethno est une expression des arts marginalisés en contraste avec les temps fortement influencés par le populisme. Notre but est de rendre publique ces arts marginalisés dans le passé afin d´enrichir la culture de chacun. Ainsi, nos artistes font revivre ces arts marginaux – Ethno Artists."
+  about_header_three: "Des évènements qui ont du cœur et de la compréhension – inclure au lieu de sélectionner."
+  about_text_three: "En tant qu´organisateurs, nous soutenons nos artistes matériellement et spirituellement pour des évènements locaux ou régionaux de différentes sortes touchant les domaines du social, de l´art et de la culture, de la santé et des soins. Pour chaque évènement, nous soutenons une organisation locale ou régionale car il est important pour nous de montrer ainsi un signe de solidarité"
+

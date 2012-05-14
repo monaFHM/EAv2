@@ -1,0 +1,23 @@
+// Place all the styles related to the descriptions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.descriptionItem{
+
+    img{
+      margin-top:5px;
+      width:15px;
+
+    }
+}
+.descr_text{
+      width: 700px;
+
+    }
+.miniItem{
+  float:left;
+  margin-left:10px;
+  margin-right: 10px;
+  width: 30px;
+}
+

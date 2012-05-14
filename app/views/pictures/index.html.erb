@@ -1,0 +1,11 @@
+<h1>Bilder verwalten</h1>
+<%= link_to 'Neues Bild anlegen', new_picture_path %><br />
+
+<% @pictures.each do |pic| %>
+  <% @picture =pic %>
+  <%= render 'show' %>
+<% end %>
+
+
+<div class="clear" ></div>
+

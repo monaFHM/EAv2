@@ -1,0 +1,27 @@
+<div id="ArtistMenuWrap">
+    <div id="ArtistMenu">
+        <% @genres = Genre.all %>
+        <% @genres.each do |genre| %>
+
+          <div class="genreItem">
+              <p class="menuHeader"><%= genre.name.downcase! %></p>
+              <div class="artistmenulist">
+                <% genre.artists.each do |a| %>
+
+                     <div class="artistmenuItem" >
+                        <% if a.pictures.any? %>
+                          <%= link_to(image_tag(a.pictures[0].avatar.url), a, :remote => true) %>
+                        <% end %>
+                         <p><%= link_to a.name, a, :remote =>true %></p>
+                    </div>
+
+                <% end %>
+                </div>
+            </div>
+
+
+             <div class="clear"></div>
+        <% end %>
+    </div>
+</div>
+
