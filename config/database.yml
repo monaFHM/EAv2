@@ -1,32 +1,25 @@
-
-
-#development: &db
-#  adapter: mysql2
-#  encoding: utf8
-#  database: db_45531843n1
-#  username: user45531843n1
-#  password: Btlox1Zk
-#  host:     zeta.railshoster.de
-
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
 development:
   adapter: sqlite3
   database: db/development.sqlite3
   pool: 5
   timeout: 5000
 
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
 test:
-  <<: *db
-
-  database: db_45531843n3
-  username: user45531843n3
-  password: 1sgmjYct
-  host:     zeta.railshoster.de
+  adapter: sqlite3
+  database: db/test.sqlite3
+  pool: 5
+  timeout: 5000
 
 production:
-  <<: *db
-
-  database: db_45531843n2
-  username: user45531843n2
-  password: qpmJSPB2
-  host:     zeta.railshoster.de
-
+  adapter: sqlite3
+  database: db/production.sqlite3
+  pool: 5
+  timeout: 5000
