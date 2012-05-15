@@ -43,7 +43,6 @@ $(document).ready(function() {
             <li><%= link_to I18n.t("about"), general_about_path %></li>
             <li><%= link_to I18n.t("artists"), general_showroom_path %></li>
             <li><%= link_to I18n.t("contact"), general_contact_path %></li>
-            <%= session[:login] %.
             <% if session[:login]  %>
                 <li><%= link_to "Logout | ", login_logout_path %><%= link_to "Adminbereich", admin_index_path %></li>
             <% end %>
