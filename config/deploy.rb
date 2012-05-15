@@ -14,7 +14,7 @@ require 'bundler/capistrano'
 ## User and Password
 
 # user to login to the target server
-set :user, "user45531843"
+set :user, "user43801846"
 
 
 # allow SSH-Key-Forwarding
@@ -44,12 +44,12 @@ set :use_sudo, false
 
 # set the location where to deploy the new project
 
-set :deploy_to, "/home/user45531843/rails1"
+set :deploy_to, "/home/user43801846/rails1"
 
 # live
-role :app, "zeta.railshoster.de"
-role :web, "zeta.railshoster.de"
-role :db,  "zeta.railshoster.de", :primary => true
+role :app, "ny.railshoster.de"
+role :web, "ny.railshoster.de"
+role :db,  "ny.railshoster.de", :primary => true
 
 # railshoster bundler settings
 set :bundle_flags, "--deployment --binstubs"
@@ -73,7 +73,7 @@ namespace :railshoster do
   desc "Show the url of your app."
   task :appurl do
     puts "\nThe default RailsHoster.com URL of your app is:"
-    puts "\nhttp://user45531843-1.zeta.railshoster.de"    
+    puts "\nhttp://user43801846-1.ny.railshoster.de"    
     puts "\n"
   end
 end

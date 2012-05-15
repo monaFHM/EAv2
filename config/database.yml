@@ -3,25 +3,24 @@
 development: &db
   adapter: mysql
   encoding: utf8
-  database: db_45531843n1
-  username: user45531843n1
-  password: Btlox1Zk
-  host:     zeta.railshoster.de
-
+  database: db_43801846n1
+  username: user43801846n1
+  password: VriImVkX
+  host:     ny.railshoster.de
 
 test:
   <<: *db
 
-  database: db_45531843n3
-  username: user45531843n3
-  password: 1sgmjYct
-  host:     zeta.railshoster.de
+  database: db_43801846n3
+  username: user43801846n3
+  password: 3OLRCCbB
+  host:     ny.railshoster.de
 
 production:
   <<: *db
 
-  database: db_45531843n2
-  username: user45531843n2
-  password: qpmJSPB2
-  host:     zeta.railshoster.de
+  database: db_43801846n2
+  username: user43801846n2
+  password: Le3HU1E5
+  host:     ny.railshoster.de
 
