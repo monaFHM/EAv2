@@ -4,12 +4,13 @@
 <head>
   <title>Ethno Artists Agency</title>
   <%= stylesheet_link_tag    "application" %>
+  <%= stylesheet_link_tag    "style" %>
   <%= javascript_include_tag    "application" %>
-  <%= javascript_include_tag     "s3slider.js" %>
+  <%= javascript_include_tag     "s3slider" %>
+  <%= javascript_include_tag     "pirobox.min" %>
   <%= csrf_meta_tags %>
 
-<link href="/javascript/demo4/style.css" class="piro_style" media="screen" title="white" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/javascript/pirobox.min.js"></script>
+
 <script type="text/javascript">
 
 $(document).ready(function() {
@@ -119,10 +120,6 @@ $(document).ready(function() {
   </div>
 
 
-<div class="hidden"
-    <% @imgUrl= '/assets/logo.png' %>
-    <%= render 'layouts/piroimg' %>
-</div>
 </body>
 </html>
 
