@@ -15,7 +15,7 @@ de:
     -
     - Jan
     - Feb
-    - Mär
+    - M&auml;r
     - Apr
     - Mai
     - Jun
@@ -41,7 +41,7 @@ de:
     -
     - Januar
     - Februar
-    - März
+    - M&auml;rz
     - April
     - Mai
     - Juni
@@ -102,34 +102,34 @@ de:
     format: ! '%{attribute} %{message}'
     messages:
       accepted: muss akzeptiert werden
-      blank: muss ausgefüllt werden
-      confirmation: stimmt nicht mit der Bestätigung überein
-      empty: muss ausgefüllt werden
+      blank: muss ausgef&uuml;llt werden
+      confirmation: stimmt nicht mit der Best&auml;tigung &uuml;berein
+      empty: muss ausgef&uuml;llt werden
       equal_to: muss genau %{count} sein
       even: muss gerade sein
-      exclusion: ist nicht verfügbar
-      greater_than: muss größer als %{count} sein
-      greater_than_or_equal_to: muss größer oder gleich %{count} sein
-      inclusion: ist kein gültiger Wert
-      invalid: ist nicht gültig
+      exclusion: ist nicht verf&uuml;gbar
+      greater_than: muss gr&ouml;ßer als %{count} sein
+      greater_than_or_equal_to: muss gr&ouml;ßer oder gleich %{count} sein
+      inclusion: ist kein g&uuml;ltiger Wert
+      invalid: ist nicht g&uuml;ltig
       less_than: muss kleiner als %{count} sein
       less_than_or_equal_to: muss kleiner oder gleich %{count} sein
       not_a_number: ist keine Zahl
       not_an_integer: muss ganzzahlig sein
       odd: muss ungerade sein
-      record_invalid: ! 'Gültigkeitsprüfung ist fehlgeschlagen: %{errors}'
+      record_invalid: ! 'G&uuml;ltigkeitspr&uuml;fung ist fehlgeschlagen: %{errors}'
       taken: ist bereits vergeben
       too_long: ist zu lang (nicht mehr als %{count} Zeichen)
       too_short: ist zu kurz (nicht weniger als %{count} Zeichen)
-      wrong_length: hat die falsche Länge (muss genau %{count} Zeichen haben)
+      wrong_length: hat die falsche L&auml;nge (muss genau %{count} Zeichen haben)
     template:
-      body: ! 'Bitte überprüfen Sie die folgenden Felder:'
+      body: ! 'Bitte &uuml;berpr&uuml;fen Sie die folgenden Felder:'
       header:
         one: ! 'Konnte %{model} nicht speichern: ein Fehler.'
         other: ! 'Konnte %{model} nicht speichern: %{count} Fehler.'
   helpers:
     select:
-      prompt: Bitte wählen
+      prompt: Bitte w&auml;hlen
     submit:
       create: ! '%{model} erstellen'
       submit: ! '%{model} speichern'
@@ -204,7 +204,7 @@ de:
 
 
   home: "HOME"
-  about: "ÜBER UNS"
+  about: "&Uuml;BER UNS"
   artists: "ARTISTEN"
   contact: "KONTAKT"
 
@@ -215,21 +215,21 @@ de:
   betreff: "Betreff"
   nachricht: "Nachricht"
   absenden: "Absenden"
-  missing_contact_info: "Bitte füllen Sie alle Felder aus"
-  contact_success: "Kontaktanfrage erfolgreich gesendet. Wir melden uns schnellstmöglich zurück! Vielen Dank!"
+  missing_contact_info: "Bitte f&uuml;llen Sie alle Felder aus"
+  contact_success: "Kontaktanfrage erfolgreich gesendet. Wir melden uns schnellstm&ouml;glich zur&uuml;ck! Vielen Dank!"
 
   index_who: "Wer wir sind"
   index_artists: "Wen wir vertreten"
   index_philosophy: "Philosophie"
 
-  index_text_who: "Ethno-Artists-Agency ist eine Agentur, die Künstlerinnen aus unterschiedlichen Kulturkreisen europa- & weltweit vertitt. Neben der Vermittlung von Künstlerinnen, ist auch die Veranstaltungstätigkeit ein Bereich, worauf sich Ethno-Artists-Agency spezialisiert hat. Sprechen Sie uns bei der Suche nach KünstlerInnen oder bei Ihrer Veranstaltungsplanung an!"
-  index_text_a: "Unsere KünstlerInnen kommen aus unterschiedlichen Kulturkreisen und sind Spezialisten auf ihrem Gebiet. Ob Musik, Kabarett, Theater! Bei uns sind alle Sparten vertreten!"
-  index_text_p: "Unsere Agentur beabsichtigt Kunst & Kultur zu für Jedermann zugänglich zu machen und an Jedermann zu vermitteln. Bei Veranstaltungen unterstützen wir lokale, sowie regionale Einrichtungen, die sich für örtliche Gemeinschaften einsetzen."
+  index_text_who: "Ethno-Artists-Agency ist eine Agentur, die K&uuml;nstlerinnen aus unterschiedlichen Kulturkreisen europa- & weltweit vertitt. Neben der Vermittlung von K&uuml;nstlerinnen, ist auch die Veranstaltungst&auml;tigkeit ein Bereich, worauf sich Ethno-Artists-Agency spezialisiert hat. Sprechen Sie uns bei der Suche nach K&uuml;nstlerInnen oder bei Ihrer Veranstaltungsplanung an!"
+  index_text_a: "Unsere K&uuml;nstlerInnen kommen aus unterschiedlichen Kulturkreisen und sind Spezialisten auf ihrem Gebiet. Ob Musik, Kabarett, Theater! Bei uns sind alle Sparten vertreten!"
+  index_text_p: "Unsere Agentur beabsichtigt Kunst & Kultur zu f&uuml;r Jedermann zug&auml;nglich zu machen und an Jedermann zu vermitteln. Bei Veranstaltungen unterst&uuml;tzen wir lokale, sowie regionale Einrichtungen, die sich f&uuml;r &ouml;rtliche Gemeinschaften einsetzen."
 
-  about_header_one: "Das Unbekannte machen!\nNeueDimensionen der Künste entdecken!\nKunst als Hauptbestandteil von Kultur verstehen!"
-  about_text_one: "Ethno-Artists vermittelt europaweit in diesem Sinne Künstler unterschiedlicher Sparten- Musik, Theater/Kabarett oder auch Alternative Arts - und ist ebenfalls als Veranstalter tätig."
+  about_header_one: "Das Unbekannte machen!\nNeueDimensionen der K&uuml;nste entdecken!\nKunst als Hauptbestandteil von Kultur verstehen!"
+  about_text_one: "Ethno-Artists vermittelt europaweit in diesem Sinne K&uuml;nstler unterschiedlicher Sparten- Musik, Theater/Kabarett oder auch Alternative Arts - und ist ebenfalls als Veranstalter t&auml;tig."
   about_header_two: "Ethno als Ausdruck marginalisierter Kunst!"
-  about_text_two: "Ethno dient keinesfalls zur Unterscheidung von KünstlerInnen aus unterschiedlichen Kulturkreisen, sondern als Ausdruck der Künste, die in unserer sehr stark vom Populismus beeinflussten Zeit marginalisiert sind. Unser Ziel ist es, diese marginalisierten Künste, Publik zu machen und die Kultur somit zu bereichern. Demzufolge beleben unsere Künstler diese marginalisierten Künste - Ethno-Artists."
+  about_text_two: "Ethno dient keinesfalls zur Unterscheidung von K&uuml;nstlerInnen aus unterschiedlichen Kulturkreisen, sondern als Ausdruck der K&uuml;nste, die in unserer sehr stark vom Populismus beeinflussten Zeit marginalisiert sind. Unser Ziel ist es, diese marginalisierten K&uuml;nste, Publik zu machen und die Kultur somit zu bereichern. Demzufolge beleben unsere K&uuml;nstler diese marginalisierten K&uuml;nste - Ethno-Artists."
   about_header_three: "Veranstaltung mit Herz & Verstand - Inklusion statt Selektion!"
-  about_text_three: "Als Veranstalter unterstützen wir materiell und immateriell, lokale sowie regionale Einrichtungen aus den jeweiligen Veranstaltungsorten, die in Bereichen wie Soziales, Kunst&Kultur, Gesundheit&Pflege tätig und auf Unterstützungen angewiesen sind. Mit jeder Veranstaltung - Konzert, Ausstellung etc. - unterstzützen wir jeweils eine Einrichtung auf lokaler oder regionaler Ebene. Damit setzen wir ein Zeichen der Solidarität."
+  about_text_three: "Als Veranstalter unterst&uuml;tzen wir materiell und immateriell, lokale sowie regionale Einrichtungen aus den jeweiligen Veranstaltungsorten, die in Bereichen wie Soziales, Kunst&Kultur, Gesundheit&Pflege t&auml;tig und auf Unterst&uuml;tzungen angewiesen sind. Mit jeder Veranstaltung - Konzert, Ausstellung etc. - unterstz&uuml;tzen wir jeweils eine Einrichtung auf lokaler oder regionaler Ebene. Damit setzen wir ein Zeichen der Solidarit&auml;t."
 
