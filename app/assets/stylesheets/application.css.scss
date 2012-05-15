@@ -6,10 +6,11 @@
  *= require_tree .
 */
 
-
+@font-face { font-family: "tschich"; src: url("/assets/TschichLight.eot"); }
+@font-face { font-family: "segoe"; src: url("/assets/segoe.eot"); }
 @font-face { font-family: "tschich"; src: url("/assets/TschichLight.ttf"); }
 @font-face { font-family: "segoe"; src: url("/assets/segoe.ttf"); }
-@font-face { font-family: "segoe"; src: url("/assets/segoe.eot"); }
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -183,6 +184,8 @@ body {
 }
 
 #menu {
+
+  font-family: segoe, sans-serif;
   margin-top: 20px;
   margin-right: 20px;
   text-align:right;
