@@ -5,7 +5,7 @@ class Artist < ActiveRecord::Base
   belongs_to :genre
 
 
- validates :name, :founded_in, :presence => true
+ validates :name, :presence => true
  validates :name, :uniqueness => true
  validates :founded_in, :numericality => { :greater_than => 1750 }
 
