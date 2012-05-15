@@ -59,5 +59,16 @@ Website::Application.configure do
   config.active_support.deprecation = :notify
 
     Paperclip.options[:command_path] = "/usr/local/bin/"
+
+  ActionMailer::Base.smtp_settings = {
+    :address              => "smtp.gmail.com",
+    :port                 => 587,
+    :domain               => "gmail.com",
+    :user_name            => "rubybiconcepts@gmail.com",
+    :password             => "KCExAQ10",
+    :authentication       => "plain",
+    :enable_starttls_auto => true
+  }
+
 end
 
