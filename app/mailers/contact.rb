@@ -8,9 +8,8 @@ class Contact < ActionMailer::Base
   #
   def send_user_contact(c)
 
-    puts "HALLO FROM SEND USE CONTACT"
     @contact = c
-    mail to: "kontakt@ramonaleenings.com"
+    mail to: "i.kizilgoez@googlemail.com;gbozem@ethnoartists.com"
   end
 end
 
