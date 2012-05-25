@@ -14,6 +14,7 @@ c_r.png: c_r-02f237ed413b8011bda01225fa65817d.png
 close_btn.png: close_btn-e93e997db724fb589849572706a56fde.png
 close_btn_h.png: close_btn_h-e7fef1343a1b85e86f0022b030b5798f.png
 de.png: de-9495d79df8f78d4a780ce184a08efb77.png
+facebook.png: facebook-610a4acceb92ba46fc4fe69c7fe8df3d.png
 footerVerlauf.png: footerVerlauf-3ace36ac529f4ba798317f7f0248a8bb.png
 fr.png: fr-a96dd5901576ba0ca13392ff65c5aa04.png
 gb.png: gb-c98581b3f325caeccdfd761d6dee0b3c.png
@@ -51,4 +52,4 @@ tschichlight-webfont.ttf: tschichlight-webfont-d11f34e94fc7891a7cf152d28845a44d.
 tschichlight-webfont.woff: tschichlight-webfont-89b2f5dd4cdab1ffc402ed3b75b269ef.woff
 whoi.jpg: whoi-c39411aa2693c54240a46f44410eded2.jpg
 application.js: application-84dfa813b80de38f1fa3de1a5bc41f76.js
-application.css: application-bebf33fda0524db149d67752fc9bc27f.css
+application.css: application-d48d14b7500429c29a3a1ea69e7e166f.css

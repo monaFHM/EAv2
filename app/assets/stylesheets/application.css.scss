@@ -253,12 +253,24 @@ body {
   margin:auto;
 
   p{
-    margin:400px;
+    width:400px;
     margin:auto;
+    float:left;
 
   }
 
 }
+
+.facebook{
+  float:right;
+
+}
+
+.facebook img{
+
+    height: 30px;
+}
+
 
 
 
