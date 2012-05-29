@@ -9,7 +9,7 @@ class Contact < ActionMailer::Base
   def send_user_contact(c)
 
     @contact = c
-    mail to: "i.kizilgoez@googlemail.com;gbozem@ethnoartists.com"
+    mail to: "i.kizilgoez@googlemail.com"
   end
 end
 
